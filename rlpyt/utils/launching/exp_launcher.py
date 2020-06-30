@@ -106,6 +106,7 @@ def run_experiments(script, affinity_code, experiment_title, runs_per_setting,
                             variant=variant,
                             run_ID=run_ID,
                             args=common_args + run_args,
+                            python_executable="python3.7"
                         )
                         launched = True
                         num_launched += 1
